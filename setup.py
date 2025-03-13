@@ -12,6 +12,6 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/andreysantos01?tab=repositories",  
     packages=find_packages(),
-    install_requires=[],  
+    install_requires= requirements,  
     python_requires=">=3.8",
 )
